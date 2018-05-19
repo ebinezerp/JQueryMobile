@@ -12,5 +12,7 @@ JQuery Mobile is a framework which helps in designing responsive the looks simil
 
 - Multiple Page Example is [here](multiplepage.html).
 
+- Anchor tag and button tag example is [here](anchorandbutton.html)
+
 
 

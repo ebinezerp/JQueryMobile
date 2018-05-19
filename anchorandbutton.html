@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Below view port is to adjust pixels on page width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anchor and Button Example</title>
+
+
+    <!-- JQuery CDN's -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="firstpage">
+        <h1>
+            This is First Page
+        </h1>
+
+        <a href="#secondpage">Get Second Page</a>
+
+
+        <p>Anchor tag with class="ui-btn" is given below</p>
+
+        <!-- class="ui-btn" applies predefined which are defined in
+         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
+        <a href="#secondpage" class="ui-btn">Get Second Page</a>
+
+        <!-- To refer button examples page -->
+        <a href="#buttonexamples" class="ui-btn">Button Examples</a>
+
+    </div>
+
+    <div data-role="page" id="secondpage">
+        <h1>This is Second Page</h1>
+
+        <!-- class="ui-btn" applies predefined which are defined in
+         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
+        <a href="#firstpage" class="ui-btn">Get First Page</a>
+
+
+        <!-- To refer button examples page -->
+        <a href="#buttonexamples">Button Examples</a>
+    </div>
+
+
+    <div data-role="page" id="buttonexamples">
+
+        <h4>Depend upon the type we can define buttons. See the Examples below</h4>
+
+        <p>For input button we can provide type. Ex: type="submit", type="reset", type="button".</p>
+
+        <input type="submit" value="Submit Button">
+        <input type="reset" value="Reset Button">
+        <input type="button" value="Cancel Button">
+
+
+        <p>For inline button , data-inline="true"</p>
+
+        <input type="button" data-inline="true" value="Button One">
+        <input type="button" data-inline="true"  value="Button Two">
+
+    </div>
+</body>
+
+</html>
