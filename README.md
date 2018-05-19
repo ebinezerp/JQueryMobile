@@ -8,7 +8,7 @@ JQuery Mobile is a framework which helps in designing responsive the looks simil
 
 - Download [JQuery Mobile](http://jquerymobile.com/download/) or you can find CDN in same web page to add to working web page.
 
-- Find a sample example [here](sampleexample.html) and kindly go through comments in better understanding of concepts.  [Screen shot](images/sample.png) of view for the sample example.
+- Find a sample example [here](sampleexample.html) and kindly go through comments in better understanding of concepts.  [Screen shot](https://github.com/ebinezerp/JQueryMobile/blob/master/images/sample.PNG) of view for the sample example.
 
 - Multiple Page Example is [here](multiplepage.html).
 

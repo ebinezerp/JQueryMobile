@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Below view port is to adjust pixels on page width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multiple Page Example</title>
+
+
+    <!-- JQuery CDN's -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+
+    <!-- This is an example of Multiple Page. To identify pages, each division is provided with an id. -->
+
+
+    <!-- Immediate below division is the welcome page of application -->
+
+    <div data-role="page" id="firstpage">
+
+
+        <h1>
+            This is First Page. (First page Division of HTML Document)
+        </h1>
+
+        <!-- To define header section, use data-role with value "header"  -->
+        <div data-role="header">
+            This is a Header section
+        </div>
+        <!-- To define Main content section of webpage, use data-role with value "ui-content"  -->
+        <div data-role="ui-content">
+            This is a Main section.
+
+            <!-- To link different pages, use ids as reference -->
+            <a href="#secondpage">Get second page</a>
+
+        </div>
+
+        <!-- To define footer section of webpage, use data-role with value "footer"  -->
+        <div data-role="footer">
+            This is footer section
+        </div>
+
+    </div>
+
+
+
+    <!-- To Present another page define another divison with date-role="page" attribute -->
+
+    <div data-role="page" id="secondpage">
+
+
+        <h1>
+            This is Second Page. (Second Division of HTML Document)
+        </h1>
+
+        <!-- To define header section, use data-role with value "header"  -->
+        <div data-role="header">
+            This is a Header section
+        </div>
+        <!-- To define Main content section of webpage, use data-role with value "ui-content"  -->
+        <div data-role="ui-content">
+            This is a Main section.
+
+
+            <!-- To link different pages, use ids as reference -->
+            <a href="#firstpage">Get First Page</a>
+        </div>
+
+        <!-- To define footer section of webpage, use data-role with value "footer"  -->
+        <div data-role="footer">
+            This is footer section
+        </div>
+
+    </div>
+
+</body>
+
+</html>

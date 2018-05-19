@@ -6,7 +6,7 @@
     <!-- Below view port is to adjust pixels on page width-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Sample Example</title>
 
 
     <!-- JQuery CDN's -->
@@ -20,28 +20,30 @@
 
 <body>
 
-<!-- To define a view or page in the body we use an attribute data-role with value "page". 
+    <!-- To define a view or page in the body we use an attribute data-role with value "page". 
     The content present outside of the "page" attributed division is not going to display on browser. 
     Example: Kindly see the bottom of the page where some content is placed but will not be displayed on browser    -->
-<div data-role="page">
+    <div data-role="page">
 
-<div data-role="header">
-     This is a Header section
-</div>
+        <!-- To define header section, use data-role with value "header"  -->
+        <div data-role="header">
+            This is a Header section
+        </div>
+        <!-- To define Main content section of webpage, use data-role with value "ui-content"  -->
+        <div data-role="ui-content">
+            This is a Main section.
+        </div>
 
-<div data-role="ui-content">
-    This is a Main section. 
-</div>
-
-<div data-role="footer">
-     This is footer section
-</div>
-    
-
-</div>
+        <!-- To define footer section of webpage, use data-role with value "footer"  -->
+        <div data-role="footer">
+            This is footer section
+        </div>
 
 
-This line is invisible in browser webpage 
+    </div>
+
+
+    This line is invisible in browser webpage
 
 </body>
 
